@@ -6,7 +6,7 @@ If you are an agent using this to start or update a project, load the major sect
 
 ## core recommendations
 
-- scripts are dumb pipes.
+- scripts are mainly dumb pipes.
 - skills are reusable units of know-how: they define how to perform one class of work, including the instructions, tools, and checks that make that work reliable.
 - recipes are skill-specific specializations that adapt how a skill is instructed for a particular kind of task or output.
 - pipelines define the default stages or steps for a task family, and can be adapted for a specific run by adding, skipping, reordering, or retrying steps when required. Should produce auditable decisions and artifacts.
