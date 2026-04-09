@@ -21,7 +21,7 @@ If you are an agent using this to start or update a project, load the major sect
 - tests, linters, and eval harnesses should encode important invariants so agents can validate, debug, and improve the system autonomously.
 - start with the minimum useful structure; only add complexity when it improves reliability, reuse, or measurability.
 - ask for clarification when instructions are unclear, and adapt explanations and vocabulary to the user's level of technical understanding.
-- optimize your harness to follow these rules and improve continuously.
+- continuously optimize your harness to best follow these recommendations.
 
 Most improvement happens in skills, recipes, and pipelines, and sometimes in code when code itself is the artifact being improved.
 
