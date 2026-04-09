@@ -29,8 +29,8 @@ Most improvement happens in skills, recipes, and pipelines, and sometimes in cod
 
 - put an **`AGENTS.md`** file at the project root, it is the project's operating map, a glance and any agent should have the context to figure out where to find what they need.
 - keep a **`docs/`** folder for project context, plans, decisions, eval definitions, and quality criteria.
-- keep a **`skills/`** folder for reusable units of know-how. Specify skills using the open standard and spec defined at [https://agentskills.io/specification](https://agentskills.io/specification)
-- recipes are in a skill folder with more customization and specific guidelines on using the skill based on use-cases. Typically put in skill/recipes/YOUR_RECIPE.md.
+- keep a **`skills/`** folder for reusable units of know-how. Specify skills using the open standard and spec defined at [https://agentskills.io/specification](https://agentskills.io/specification).
+- recipes are in the skill folder with specific guidelines and learning on using the skill based on use-cases. Write in skill/references/recipes/YOUR_RECIPE.md.
 
 ## onboarding-process
 
