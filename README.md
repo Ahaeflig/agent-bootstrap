@@ -2,7 +2,7 @@
 
 A minimal bootstrap for high-quality agentic projects.
 
-If you're an agent reading this to start a project for your user read the major sections first and then follow ## onboarding-process.
+If you are an agent using this to start a project, load the major sections into context, then follow `## onboarding-process`.
 
 ## core recommendations
 
