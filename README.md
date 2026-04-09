@@ -20,6 +20,7 @@ If you are an agent, load the major sections into context, then follow `## onboa
 - docs should be structured, versioned, and mechanically maintained so agents can trust and navigate them.
 - optimize for predictable discovery.
 - focus documentation on the non-obvious.
+- enforce style and formatting with deterministic tools (linters, formatters, hooks), not instructions.
 - tests, linters, and eval harnesses should encode important invariants so agents can validate, debug, and improve the system autonomously.
 - start with the minimum useful structure; only add complexity when it improves reliability, reuse, or measurability.
 - ask for clarification when instructions are unclear, and adapt explanations and vocabulary to the user's level of technical understanding.
