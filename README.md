@@ -4,7 +4,7 @@ Minimal bootstrap rules for high-quality agentic projects.
 
 If you're a human point your coding agent at this file to bootstrap a new project.
 
-If you are an agent using this, load the major sections into context, then follow `## onboarding-process`.
+If you are an agent load the major sections into context, then follow `## onboarding-process`.
 
 ## recommendations
 
