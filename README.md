@@ -41,7 +41,7 @@ Most improvement happens in skills, recipes, and pipelines, and sometimes in cod
 
 ## onboarding-process
 
-Ask these questions up front, all at once:
+If unclear, ask these questions to the user up front, all at once:
 
 - what is the project, in one sentence?
 - what are the intended inputs, outputs, constraints, and relevant domain context?
