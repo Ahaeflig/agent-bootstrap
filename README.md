@@ -25,7 +25,7 @@ If you are an agent using this to start or update a project, load the major sect
 
 Most improvement happens in skills, recipes, and pipelines, and sometimes in code when code itself is the artifact being improved.
 
-## opinionated setup
+## minimal opinionated setup
 
 - put an **`AGENTS.md`** file at the project root, it is the project's operating map, a glance and any agent should have the context to figure out where to find what they need.
 - keep a **`docs/`** folder for project context, plans, decisions, eval definitions, and quality criteria.
