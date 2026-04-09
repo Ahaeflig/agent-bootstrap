@@ -32,6 +32,12 @@ Most improvement happens in skills, recipes, and pipelines, and sometimes in cod
 - keep a **`skills/`** folder for reusable units of know-how. Specify skills using the open standard and spec defined at [https://agentskills.io/specification](https://agentskills.io/specification).
 - recipes are in the skill folder with specific guidelines and learning on using the skill based on use-cases. Write in skill/references/recipes/YOUR_RECIPE.md.
 
+## references
+
+- writing effective AGENTS.md files: [lessons from 2,500+ repositories](https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/)
+- writing skills: [the complete guide to building skills for Claude](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) and the [agent skills specification](https://agentskills.io/specification)
+- harness engineering: [OpenAI on leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)
+
 ## onboarding-process
 
 Ask these questions up front, all at once:
