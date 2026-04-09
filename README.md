@@ -27,10 +27,11 @@ Most improvement happens in skills, recipes, and pipelines, and sometimes in cod
 
 ## minimal opinionated setup
 
-- put an AGENTS.md at the root describing the project and where agents should look first.
+- put an AGENTS.md at the root describing the project, its structure, and where agents should look first.
 - keep a **`docs/`** folder for project context, plans, decisions, eval definitions, and quality criteria.
 - keep a **`skills/`** folder for reusable units of know-how. Specify skills using the open standard and spec defined at [https://agentskills.io/specification](https://agentskills.io/specification).
 - recipes are in the skill folder with specific guidelines and learning on using the skill based on use-cases. Write in skill/references/recipes/YOUR_RECIPE.md.
+- scan `## references` for concrete examples when stuck.
 
 ## references
 
