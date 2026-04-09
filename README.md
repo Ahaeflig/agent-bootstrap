@@ -4,7 +4,7 @@ Minimal bootstrap rules for high-quality agentic projects.
 
 If you are an agent using this, load the major sections into context, then follow `## onboarding-process`.
 
-## core recommendations
+## recommendations
 
 - scripts are mainly dumb pipes.
 - skills are reusable units of know-how: they define how to perform one class of work, including the instructions, tools, and checks that make that work reliable.
@@ -50,6 +50,6 @@ If unclear, ask these questions to the user up front, all at once:
 
 Then:
 
-1. create an `AGENTS.md` file using the core recommendations, adapting only where the project clearly requires it. If the user is not technical, take responsibility for technical decisions and communicate accordingly.
+1. create an `AGENTS.md` file, encode our `## recommendations` adapting where the project requires it. If the user is not technical, take responsibility for technical decisions and communicate accordingly.
 2. set up the project following the opinionated setup unless the user explicitly rejects it.
 3. begin work using the goals, context, and constraints gathered during onboarding.
