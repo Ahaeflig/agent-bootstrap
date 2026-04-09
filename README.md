@@ -17,7 +17,7 @@ If you are an agent using this, load the major sections into context, then follo
 - define explicit evals: important outcomes should be judged by clear, repeatable, and quantitative criteria. Evals provide the optimization signal.
 - docs should be structured, versioned, and mechanically maintained so agents can trust and navigate them.
 - optimize for predictable discovery.
-- avoid documenting the obvious, agents are likely to know or infer reliably many things.
+- focus documentation on the non-obvious.
 - tests, linters, and eval harnesses should encode important invariants so agents can validate, debug, and improve the system autonomously.
 - start with the minimum useful structure; only add complexity when it improves reliability, reuse, or measurability.
 - ask for clarification when instructions are unclear, and adapt explanations and vocabulary to the user's level of technical understanding.
