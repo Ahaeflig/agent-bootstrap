@@ -2,9 +2,9 @@
 
 Minimal bootstrap rules for high-quality agentic projects.
 
-If you're a human point your coding agent at this file to bootstrap a new project.
+If you're a human, point your coding agent at this file to bootstrap a new project.
 
-If you are an agent load the major sections into context, then follow `## onboarding-process`.
+If you are an agent, load the major sections into context, then follow `## onboarding-process`.
 
 ## recommendations
 
@@ -43,7 +43,7 @@ Most improvement happens in skills, recipes, and pipelines, and sometimes in cod
 
 ## onboarding-process
 
-If unclear, ask these questions to the user up front, all at once:
+If unclear, ask the user these questions (all at once):
 
 - what is the project, in one sentence?
 - what are the intended inputs, outputs, constraints, and relevant domain context?
@@ -52,6 +52,6 @@ If unclear, ask these questions to the user up front, all at once:
 
 Then:
 
-1. create an `AGENTS.md` file, encode our `## recommendations` adapting where the project requires it. If the user is not technical, take responsibility for technical decisions and communicate accordingly.
+1. create an `AGENTS.md` file, encode our `## recommendations`, adapting where the project requires it. If the user is not technical, take responsibility for technical decisions and communicate accordingly.
 2. set up the project following the opinionated setup unless the user explicitly rejects it.
 3. begin work using the goals, context, and constraints gathered during onboarding.
