@@ -6,13 +6,14 @@ If you're a human, point your coding agent at this file to bootstrap a new proje
 
 If you are an agent, load the major sections into context, then follow `## onboarding-process`.
 
-## recommendations
+## guidelines
 
-- scripts are mainly dumb pipes.
+- always solve and optimize for root-causes, never for symptoms.
 - skills are reusable units of know-how: they define how to perform one class of work, including the instructions, tools, and checks that make that work reliable.
 - recipes are skill-specific specializations that adapt how a skill is instructed for a particular kind of task or output.
 - pipelines define the default stages or steps for a task family, and can be adapted for a specific run by adding, skipping, reordering, retrying steps, or escalating to the user when required. Pipelines should produce auditable decisions and artifacts.
 - config holds explicit parameters and contracts.
+- scripts are mainly dumb pipes.
 - code stays minimal unless it is itself the artifact being improved.
 - sub-agents are useful for bounded, parallelizable parts of a pipeline, especially read-heavy or evaluative work; avoid using them by default for concurrent write-heavy tasks.
 - make the runtime observable: agents and humans should be able to inspect logs, traces, metrics, state, and artifacts to understand what happened.
@@ -24,7 +25,8 @@ If you are an agent, load the major sections into context, then follow `## onboa
 - tests, linters, and eval harnesses should encode important invariants so agents can validate, debug, and improve the system autonomously.
 - start with the minimum useful structure; only add complexity when it improves reliability, reuse, or measurability.
 - ask for clarification when instructions are unclear, and adapt explanations and vocabulary to the user's level of technical understanding.
-- continuously optimize your harness to best follow these recommendations.
+- when writing prompts or instructions to other models/agents write self-contained/sufficient prompts, other agents won't have the specific context/situation unless shared.
+- continuously optimize your harness to best support these guidelines.
 
 Most improvement happens in skills, recipes, and pipelines, and sometimes in code when code itself is the artifact being improved.
 
@@ -53,6 +55,6 @@ If unclear, ask the user these questions (all at once):
 
 Then:
 
-1. create an `AGENTS.md` file, encode our `## recommendations`, adapting where the project requires it. If the user is not technical, take responsibility for technical decisions and communicate accordingly.
+1. create an `AGENTS.md` file, copy our `## guidelines`, adapting where the project requires it. If the user is not technical, take responsibility for technical decisions and communicate accordingly.
 2. set up the project following the opinionated setup unless the user explicitly rejects it.
 3. begin work using the goals, context, and constraints gathered during onboarding.
