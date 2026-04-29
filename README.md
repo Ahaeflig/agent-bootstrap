@@ -1,10 +1,10 @@
 # agent-bootstrap
 
-Minimal bootstrap rules for high-quality agentic projects.
+minimal bootstrap rules for high-quality agentic projects.
 
-If you're a human, point your coding agent at this file to bootstrap a new project.
+if you're a human, point your coding agent at this file to bootstrap a new project.
 
-If you are an agent, load the major sections into context, then follow `## onboarding-process`.
+if you are an agent, load the major sections into context, then follow `## onboarding-process`.
 
 ## guidelines
 
